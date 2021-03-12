@@ -1,4 +1,4 @@
- Package names
+# Package names
 packages <- c("shiny", "maps", "mapproj")
 
 # Install packages not yet installed
