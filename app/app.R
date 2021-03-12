@@ -11,7 +11,7 @@ if (any(installed_packages == FALSE)) {
 invisible(lapply(packages, library, character.only = TRUE))
 
 # Load data
-counties = readRDS("data/counties.rds")
+counties = readRDS("CensusApp/data/counties.rds")
 
 # Source helper functions
 source("helpers.R")
